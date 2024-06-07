@@ -1,0 +1,55 @@
+/* app.css */
+
+/* Set the body background and font */
+body {
+  background: linear-gradient(135deg, #3B3B98, #CAD3C8);
+  color: #7adaf5;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* Style the input elements */
+input[type="number"], input[type="button"] {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+input[type="number"] {
+  width: 50px;
+  background-color: #3a3f47;
+  color: #61dafb;
+}
+
+input[type="button"] {
+  background-color: #61dafb;
+  color: #282c34;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+  background-color: #FD7272;
+}
+
+/* Style the game canvas */
+#gameArea {
+  border: 2px solid #61dafb;
+  background: linear-gradient(135deg, #9AECDB, #F8EFBA);
+  display: block;
+  margin: 20px auto;
+}
+
+/* Add some spacing between elements */
+br + br {
+  margin-top: 20px;
+}
+h3 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
